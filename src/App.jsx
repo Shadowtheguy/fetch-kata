@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react'
+import PokemonDisplay from './components/PokemonDisplay'
 import './App.css'
 
 function App() {
-  return ("")
+  return (<PokemonDisplay />)
 }
 
 export default App
