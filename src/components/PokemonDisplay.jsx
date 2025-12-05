@@ -37,7 +37,7 @@ export default function PokemonDisplay() {
     <div>
       <p>Name: {capitalizeString(pokemon.name)}</p>
       <p>Weight: {pokemon.weight} lbs.</p>
-      <p>Height: {translateHeight(pokemon.height)} meters</p>
+      <p>Height: {translateHeight(pokemon.height)} Meters</p>
       {pokemon.imgUrl && <img src={pokemon.imgUrl} alt={pokemon.name} />}
     </div>
   );
